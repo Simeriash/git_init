@@ -1,0 +1,14 @@
+config vs_codium :
+
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"editor.autoIndent": "brackets",
+	"editor.detectIndentation": false
+
+extension :
+	42 ft_count_line (DoKca)
+	42 header (kube)
+	Better Makefile (carlwr)
+	clangd (llvm-vs-code-extensions)
