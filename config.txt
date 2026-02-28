@@ -12,3 +12,11 @@ extension :
 	42 header (kube)
 	Better Makefile (carlwr)
 	clangd (llvm-vs-code-extensions)
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd 'code --wait --merge $REMOTE $LOCAL $BASE $MERGED'
+git config --global mergetool.keepBackup false
+git config --global alias.adog "log --all --decorate --oneline --graph”
